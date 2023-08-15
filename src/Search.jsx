@@ -11,8 +11,8 @@ function SearchBar({ placeholder, data }) {
 
     const newFilter = data.filter((words) => {
       return (
-        words.english.toLowerCase().includes(searchWord) ||
-        words.arabic.toLowerCase().includes(searchWord)
+        words.english.toLowerCase().includes(searchWord.toLowerCase()) ||
+        words.arabic.toLowerCase().includes(searchWord.toLowerCase())
       );
     });
 
