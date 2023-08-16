@@ -6,7 +6,7 @@ import Search from './Search';
 function App() {
   return (
     <div>
-      <h1>English to Arabic Translator</h1>
+      <h1>English-Arabic Translator</h1>
       <h1>مترجم عربي انجليزي</h1>
       <Search
         placeholder='Search يبحث'
