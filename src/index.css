@@ -57,3 +57,30 @@ td {
   padding-top: 20px;
   font-size: 25px;
 }
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  input {
+    font-size: 17px;
+    margin: 10px 20px;
+  }
+
+  table {
+    margin: 0;
+  }
+  th {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  td {
+    font-size: 17px;
+  }
+
+  tr {
+    margin-bottom: 0px;
+  }
+}
