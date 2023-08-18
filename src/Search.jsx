@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import './index.css';
+import React, { useState } from "react";
+import "./index.css";
 
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
-  const [wordEntered, setWordEntered] = useState('');
+  const [wordEntered, setWordEntered] = useState("");
 
   const handleFilter = (e) => {
     const searchWord = e.target.value;
@@ -16,7 +16,7 @@ function SearchBar({ placeholder, data }) {
       );
     });
 
-    if (searchWord === '') {
+    if (searchWord === "") {
       setFilteredData([]);
     } else {
       setFilteredData(newFilter);
@@ -24,10 +24,10 @@ function SearchBar({ placeholder, data }) {
   };
 
   return (
-    <div className='search__container'>
-      <div className='search__styles'>
+    <div className="search__container">
+      <div className="search__styles">
         <input
-          type='text'
+          type="text"
           placeholder={placeholder}
           value={wordEntered}
           onChange={handleFilter}
