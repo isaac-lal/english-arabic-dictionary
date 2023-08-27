@@ -8,10 +8,7 @@ function App() {
     <div>
       <h1>English-Arabic Translator</h1>
       <h1>مترجم عربي انجليزي</h1>
-      <Search
-        placeholder='Search يبحث'
-        data={WordsData}
-      />
+      <Search data={WordsData} />
     </div>
   );
 }

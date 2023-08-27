@@ -28,9 +28,10 @@ function SearchBar({ placeholder, data }) {
       <div className='search__styles'>
         <input
           type='text'
-          placeholder={placeholder}
+          placeholder='Search يبحث'
           value={wordEntered}
           onChange={handleFilter}
+          autoFocus
         />
       </div>
       {filteredData.length != 0 && (
