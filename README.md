@@ -1,4 +1,4 @@
-# english-arabic-translator
+# english-arabic-dictionary
 
 ## Scaffolding Your First Vite Project
 
