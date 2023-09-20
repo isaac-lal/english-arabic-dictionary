@@ -6,8 +6,8 @@ import Search from './Search';
 function App() {
   return (
     <div>
-      <h1>English-Arabic Translator</h1>
-      <h1>مترجم عربي انجليزي</h1>
+      <h1>English-Arabic Dictionary</h1>
+      <h1>قاموس عربي-انجليزي</h1>
       <Search data={WordsData} />
     </div>
   );
